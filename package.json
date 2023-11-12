@@ -1,0 +1,27 @@
+{
+  "name": "weavedb-html",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel  --no-source-maps",
+    "build": "parcel build  --no-source-maps"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "constants-browserify": "^1.0.0",
+    "crypto-browserify": "^3.12.0",
+    "parcel": "^2.10.2",
+    "process": "^0.11.10",
+    "url": "^0.11.0",
+    "viem": "^1.18.9"
+  },
+  "dependencies": {
+    "@wagmi/core": "^1.4.6",
+    "@web3modal/wagmi": "^3.2.1",
+    "buffer": "^6.0.3",
+    "weavedb-sdk": "latest"
+  }
+}
